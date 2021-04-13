@@ -18,7 +18,7 @@ The standard Java libraries fail to provide enough methods for manipulation of i
     * [FileFormatUtil](#fileformatutil)
     * [Interner](#interner)
     * [TimerUtil](#timerutil)
-
+    * [License](#license)
 ## Installation
 To add a dependency on this library using Maven, use the following:
 ```xml
