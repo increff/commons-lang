@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.nextscm.commons</groupId>
+	<artifactId>nextscm-commons-lang</artifactId>
+	<version>1.4-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>nextscm-commons-lang</name>
+
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>nextscm-release</id>
+			<url>https://one.increff.com/artifactory/libs-release-local</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>nextscm-snapshot</id>
+			<url>https://one.increff.com/artifactory/libs-snapshot-local</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>nextscm-release</id>
+			<url>https://one.increff.com/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>nextscm-snapshot</id>
+			<url>https://one.increff.com/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<scm>
+		<url>https://bitbucket.org/increff/commons-lang/src</url>
+		<connection>scm:git:https://nextscm_jenkins@bitbucket.org/increff/commons-lang/commons-lang.git</connection>
+		<developerConnection>scm:git:https://nextscm_jenkins@bitbucket.org/increff/commons-lang.git</developerConnection>
+	  <tag>HEAD</tag>
+  </scm>
+</project>

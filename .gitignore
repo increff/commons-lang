@@ -1,0 +1,28 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+
+#Ignore local properties
+test.properties
+
+#Igore backups
+backup/
+*.bkp
+
+#Ignore logs
+*.log
+*.log*
