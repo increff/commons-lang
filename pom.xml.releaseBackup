@@ -25,7 +25,7 @@
         commons-lang provides a host of helper utilities for dealing with Collections,
         DateTime formats and Files among other things
     </description>
-    <url>https://https://github.com/increff/commons-lang/src</url>
+    <url>https://github.com/increff/commons-lang</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -121,11 +121,11 @@
     </distributionManagement>
 
     <scm>
-        <tag>HEAD</tag>
         <connection>scm:git:git://github.com/increff/commons-lang.git</connection>
-        <developerConnection>scm:git:ssh://github.com:increff/commons-lang.git</developerConnection>
-        <url>http://github.com/increff/commons-lang/tree/main</url>
-  </scm>
+        <developerConnection>scm:git:git@github.com:increff/commons-lang.git</developerConnection>
+        <url>https://github.com/increff/commons-lang</url>
+        <tag>increff-commons-lang-1.0.0</tag>
+    </scm>
 
     <licenses>
         <license>

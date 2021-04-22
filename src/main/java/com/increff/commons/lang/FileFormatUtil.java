@@ -28,7 +28,7 @@ public class FileFormatUtil {
 
 	/**
 	 * Converts a TSV file into a CSV file
-	 * @param tsvFile TSV file to be converted
+	 * @param tsvFile TSV file to be converted into CSV
 	 * @param csvFile File on which to save the converted CSV
 	 */
 	public static void tsvToCsv(File tsvFile, File csvFile) throws IOException {
