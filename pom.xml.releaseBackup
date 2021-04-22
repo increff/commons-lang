@@ -13,7 +13,8 @@
   ~ the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.increff.commons</groupId>
@@ -21,11 +22,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>increff-commons-lang</name>
-    <description>
-        commons-lang provides a host of helper utilities for dealing with Collections,
-        DateTime formats and Files among other things
-    </description>
-    <url>https://https://github.com/increff/commons-lang/src</url>
+
+    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -122,25 +120,9 @@
 
     <scm>
         <tag>HEAD</tag>
+        <url>https://https://github.com/increff/commons-lang/src</url>
         <connection>scm:git:git://github.com/increff/commons-lang.git</connection>
-        <developerConnection>scm:git:ssh://github.com:increff/commons-lang.git</developerConnection>
-        <url>http://github.com/increff/commons-lang/tree/main</url>
-  </scm>
-
-    <licenses>
-        <license>
-            <name>The Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <name>Increff</name>
-            <email>itops@increff.com</email>
-            <organization>Increff</organization>
-            <organizationUrl>http://www.increff.com</organizationUrl>
-        </developer>
-    </developers>
+        <developerConnection>scm:git:git@github.com:increff/commons-lang.git</developerConnection>
+    </scm>
 
 </project>
