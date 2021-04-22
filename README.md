@@ -25,7 +25,7 @@ To add a dependency on this library using Maven, use the following:
 <dependency>
     <groupId>com.increff.commons</groupId>
     <artifactId>increff-commons-lang</artifactId>
-    <version>1.4</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 ```
