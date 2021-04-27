@@ -121,8 +121,8 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/increff/commons-lang.git</connection>
-        <developerConnection>scm:git:git@github.com:increff/commons-lang.git</developerConnection>
+        <connection>scm:git:https://Increff-Jenkins@github.com/increff/commons-lang.git</connection>
+	<developerConnection>scm:git:https://Increff-Jenkins@github.com:increff/commons-lang.git</developerConnection>
         <url>https://github.com/increff/commons-lang</url>
         <tag>increff-commons-lang-1.0.0</tag>
     </scm>
