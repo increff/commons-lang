@@ -18,7 +18,7 @@
 
     <groupId>com.increff.commons</groupId>
     <artifactId>increff-commons-lang</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
     <name>increff-commons-lang</name>
     <description>
@@ -124,7 +124,7 @@
         <connection>scm:git:git://github.com/increff/commons-lang.git</connection>
         <developerConnection>scm:git:git@github.com:increff/commons-lang.git</developerConnection>
         <url>https://github.com/increff/commons-lang</url>
-        <tag>increff-commons-lang-1.0.2</tag>
+        <tag>Rel-increff-commons-lang-1.0.3</tag>
     </scm>
 
     <licenses>
